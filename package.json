@@ -5,7 +5,7 @@
   "description": "Colt Steel webpack tutorial follow along",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --config webpack.config.js"
   },
   "author": "Tony Fang",
   "license": "ISC",
