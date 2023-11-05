@@ -1,4 +1,4 @@
-class ComponentService {
+export class ComponentService {
     constructor() {
         //* these lines were the varibles defined now instead of const we use this.
         this.numberOneInput = document.getElementById("numberOne");
