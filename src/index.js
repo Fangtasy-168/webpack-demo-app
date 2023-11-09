@@ -1,5 +1,6 @@
 import { run } from "./app/app";
-import "./main.scss"
+import "./main.scss";
+import "./assets/webpack.svg"
 import { AlertService } from "./app/alert.service";
 import { ComponentService } from "./app/component.service";
 const alertService = new AlertService();
