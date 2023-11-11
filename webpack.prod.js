@@ -20,11 +20,11 @@ module.exports = merge(common, {
         }),
         new HtmlWebpackPlugin({
             template: "./src/template.html",
-            minify: {
-                removeAttributeQuotes: true,
-                collapseWhitespace: true,
-                removeComments: true,
-            }
+            // minify: {
+            //     removeAttributeQuotes: true,
+            //     collapseWhitespace: true,
+            //     removeComments: true,
+            // }
         })
     ],
     module: {
@@ -38,11 +38,11 @@ module.exports = merge(common, {
                 ], // note that the array executes in a reverse order before sytle can run the css must be loaded
             },
         ]
-    },
-    optimization: {
-        minimizer: [
-            new CssMinimizerPlugin(), new TerserPlugin()
-        ],
-    },
+    }
+    // ,optimization: {
+    //     minimizer: [
+    //         new CssMinimizerPlugin(), new TerserPlugin()
+    //     ],
+    // },
 
 })
